@@ -19,6 +19,7 @@ namespace Multiplikationstabell
             {
                 multiplikationer[i] = (i+1) * parsedInput;
             }
+            Console.WriteLine("Detta är ditt tals multiplikationstabell:");
             foreach(int nummer in multiplikationer) //skriver ut varje värde i tabellen som är talet multiplicerat med 1 - 10
             {
                 Console.WriteLine(nummer);
