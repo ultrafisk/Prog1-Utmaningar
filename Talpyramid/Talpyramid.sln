@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talpyramid", "Talpyramid\Talpyramid.csproj", "{494EC84E-6289-46C5-ABE7-144C5759342E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{494EC84E-6289-46C5-ABE7-144C5759342E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494EC84E-6289-46C5-ABE7-144C5759342E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494EC84E-6289-46C5-ABE7-144C5759342E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494EC84E-6289-46C5-ABE7-144C5759342E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E72083D6-B9D8-434B-9CD9-55C16C420377}
+	EndGlobalSection
+EndGlobal
