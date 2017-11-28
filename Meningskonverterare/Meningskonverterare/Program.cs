@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Meningskonverterare
 {
-    class Program
+    class Program           //Erik Hackeru, also everything here is simples so no need for comment
     {
         static void Main(string[] args)
         {
@@ -30,7 +30,7 @@ namespace Meningskonverterare
             {
                 Console.Write("Thou has'th chosen lower case.\nWrite thine sentence down below:\n");
                 input = Console.ReadLine();
-                output = input.ToLower();
+                output = input.ToLower();       //exept here C:    .ToLower() or .ToUpper() converts to upper or lower case characters
                 Console.WriteLine(output);
             }
             else if (choice == 2)
