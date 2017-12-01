@@ -30,7 +30,7 @@ namespace Meningskonverterare
             {
                 Console.Write("Thou has'th chosen lower case.\nWrite thine sentence down below:\n");
                 input = Console.ReadLine();
-                output = input.ToLower();       //exept here C:    .ToLower() or .ToUpper() converts to upper or lower case characters
+                output = input.ToLower();       //exept this :)    .ToLower() or .ToUpper() converts to upper or lower case characters
                 Console.WriteLine(output);
             }
             else if (choice == 2)
