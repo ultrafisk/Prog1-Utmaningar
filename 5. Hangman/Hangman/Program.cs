@@ -12,6 +12,7 @@ namespace Hangman
         static void Main(string[] args)
         {
             Game();
+            //genererar ett slumpmässigt ord och returnerar det
             string WordList()
             {
                 string[] words = new string[10];
@@ -34,8 +35,8 @@ namespace Hangman
             void Game()
             {
                 Console.Write("----====||====----\nWelcome to Hangman!\nGuess wrong and ye shall be hanged!\nWhat word am I thinking of?\n");
-                char[] chars = WordList().ToCharArray();
-                guess = new char[chars.Length];
+                char[] chars = WordList().ToCharArray();    //konverterar ordet till en character array där varje bokstav är ett eget värde
+                guess = new char[chars.Length];             //gör en ny array som är likadan som ovan men byter sedan ut alla karaktärer till understreck
                 for (int i = 0; i < guess.Length; i++)
                 {
                     guess[i] = '_';
@@ -43,7 +44,7 @@ namespace Hangman
                 for (int i = 5; i > 0; i--)
                 {
                     Console.WriteLine($"You have {i} tries left.");
-                    for (int j = 0; j < guess.Length; j++)
+                    for (int j = 0; j < guess.Length; j++)  //skriver ut alla charactärer i guess[] + mellanrum
                     {
                         Console.Write(guess[j] + " ");
                     }
@@ -56,7 +57,8 @@ namespace Hangman
                         Console.WriteLine("u r an invalid, tri agein");
                         Game();
                     }
-                    for (int j = 0; j < chars.Length; j++)
+                    for (int j = 0; j < chars.Length; j++)  //kollar om gissningen är i char[] och om den är så byts den understrecket i guess[] på den platsen till bokstaven ur chars[]
+                                                            //kollar även om det finns några understreck kvar i guess[], om inte så vinner man spelet
                     {
                         if (chars[j] == input)
                         {

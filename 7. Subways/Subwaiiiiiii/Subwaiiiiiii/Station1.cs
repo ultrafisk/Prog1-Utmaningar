@@ -8,6 +8,7 @@ namespace Subwaiiiiiii
 {
     class Station1
     {
+        //stationerna returnerar en integer som används i Train.cs för att bestämma vilken station som ska köras näst
         public int Station()
         {
             int output;

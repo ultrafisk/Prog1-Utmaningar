@@ -8,6 +8,7 @@ namespace Subwaiiiiiii
 {
     class Parser
     {
+        //En parse metod som kan tillkallas från överallt med hjälp av objekt
         public int Parse()
         {
             int input;

@@ -4,16 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Subwaiiiiiii
+namespace _6.Personregister
 {
-    //Erik Hacker
     class Program
     {
         static void Main(string[] args)
         {
-            //gör ett objekt av classen Train och kör sedan metoden Locomotive() i den
-            Train start = new Train();
-            start.Locomotive();
+            //gör objekt av Logic.cs och gör metoden Brain()
+            Logic logic = new Logic();
+            logic.Brain();
         }
     }
 }

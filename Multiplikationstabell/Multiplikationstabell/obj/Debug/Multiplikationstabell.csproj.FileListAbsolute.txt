@@ -1,7 +1,0 @@
-C:\Users\elev\Google Drive\New Folder 137\2\Programmering\GitHub\Prog1-Utmaningar\Multiplikationstabell\Multiplikationstabell\Multiplikationstabell\bin\Debug\Multiplikationstabell.exe.config
-C:\Users\elev\Google Drive\New Folder 137\2\Programmering\GitHub\Prog1-Utmaningar\Multiplikationstabell\Multiplikationstabell\Multiplikationstabell\bin\Debug\Multiplikationstabell.exe
-C:\Users\elev\Google Drive\New Folder 137\2\Programmering\GitHub\Prog1-Utmaningar\Multiplikationstabell\Multiplikationstabell\Multiplikationstabell\bin\Debug\Multiplikationstabell.pdb
-C:\Users\elev\Google Drive\New Folder 137\2\Programmering\GitHub\Prog1-Utmaningar\Multiplikationstabell\Multiplikationstabell\Multiplikationstabell\obj\Debug\Multiplikationstabell.csprojResolveAssemblyReference.cache
-C:\Users\elev\Google Drive\New Folder 137\2\Programmering\GitHub\Prog1-Utmaningar\Multiplikationstabell\Multiplikationstabell\Multiplikationstabell\obj\Debug\Multiplikationstabell.csproj.CoreCompileInputs.cache
-C:\Users\elev\Google Drive\New Folder 137\2\Programmering\GitHub\Prog1-Utmaningar\Multiplikationstabell\Multiplikationstabell\Multiplikationstabell\obj\Debug\Multiplikationstabell.exe
-C:\Users\elev\Google Drive\New Folder 137\2\Programmering\GitHub\Prog1-Utmaningar\Multiplikationstabell\Multiplikationstabell\Multiplikationstabell\obj\Debug\Multiplikationstabell.pdb

@@ -8,6 +8,7 @@ namespace Subwaiiiiiii
 {
     class Train
     {
+        //Metoden som körs från Program.cs, den gör objekt av station klasserna och kör sedan den första stationen
         public void Locomotive()
         {
             Station1 stat1 = new Station1();
@@ -26,6 +27,7 @@ namespace Subwaiiiiiii
                 }
                 else if (choice == 2)
                 {
+                    //Exit() stänger programmet
                     Exit();
                 }
                 else

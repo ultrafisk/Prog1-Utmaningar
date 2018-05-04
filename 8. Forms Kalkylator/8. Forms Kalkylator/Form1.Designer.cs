@@ -33,10 +33,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(61, 159);
+            this.textBox1.Location = new System.Drawing.Point(59, 23);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(156, 62);
+            this.textBox1.Size = new System.Drawing.Size(156, 197);
             this.textBox1.TabIndex = 0;
             // 
             // Form1
